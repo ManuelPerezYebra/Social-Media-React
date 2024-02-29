@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
   *::after,
   *::before{
     box-sizing: border-box;
+    background-color: #1D1E29;
   }
 
   img{
@@ -15,6 +16,9 @@ export const GlobalStyles = createGlobalStyle`
   body{
     margin: 0;
     font-family: sans-serif;
+    width: 80%;
+    margin: 2.25rem auto;
+    
   }
 
   a{

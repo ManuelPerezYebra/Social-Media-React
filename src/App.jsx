@@ -1,11 +1,17 @@
 import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import BigCardsContainer from "./components/bigcardscontainer/BigCardsContainer";
+import SmallCardsContainer from "./components/smallcardscontainer/SmallCardsContainer";
+
+import Header from "./components/header/Header";
 
 const App = () => {
 	return <>
-	<GlobalStyles></GlobalStyles>
-	<h1>Núcleo de la aplicación</h1>;
+	<GlobalStyles/>
+	<Header/>
+	<BigCardsContainer/>
+	<SmallCardsContainer/>
 	
-	
+
 	</> 
 	
 };
