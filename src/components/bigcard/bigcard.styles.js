@@ -25,14 +25,13 @@ const StyledSpan = styled.div`
 	background-color: inherit;
 	color: ${({ $color }) => $color};
 `;
-const StyledH1 = styled.div`
+const StyledH1 = styled.h1`
 	text-align: center;
 	font-family: 'Inter', sans-serif;
 	font-weight: bold;
 	background-color: inherit;
 	color: aliceblue;
-	font-size: 3.5rem;
-	margin-top: 1.75rem;
+	font-size: 2.5rem;
 `;
 const StyledText = styled.p`
 	color: white;
