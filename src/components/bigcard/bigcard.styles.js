@@ -6,6 +6,9 @@ const StyledBigCard = styled.div`
 	background-color: #262b42;
 	border-radius: 5px;
 	box-shadow: 0px -5px ${({ $bordercolor }) => $bordercolor};
+	@media only screen and (max-width: 425px) {
+		margin: 0 auto;
+	}
 `;
 const StyledImgContainer = styled.div`
 	display: flex;

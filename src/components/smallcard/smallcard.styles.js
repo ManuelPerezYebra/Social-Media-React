@@ -15,6 +15,9 @@ const StyledSmallCard = styled.div`
 		margin: auto;
 		background-color: inherit;
 	}
+	@media only screen and (max-width: 425px) {
+		margin: 0 auto;
+	}
 `;
 const StyledText = styled.p`
 	background-color: #262b42;

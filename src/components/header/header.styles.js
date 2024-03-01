@@ -7,6 +7,12 @@ const StyledHeader = styled.header`
 const StyledH1 = styled.header`
 	color: white;
 	font-size: 1.75rem;
+	@media only screen and (max-width: 425px) {
+		font-size: 1.5rem;
+	}
+	@media only screen and (max-width: 768px) {
+		font-size: 1.75rem;
+	}
 `;
 const StyledText = styled.header`
 	font-size: 0.875rem;
